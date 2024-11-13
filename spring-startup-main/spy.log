@@ -1,0 +1,30 @@
+#1731507551590 | took 5ms | statement | connection 1| url jdbc:p6spy:postgresql://localhost:5432/postgres
+select * from information_schema.sequences
+select * from information_schema.sequences;
+#1731507551593 | took 7ms | statement | connection 11| url jdbc:postgresql://localhost:5432/postgres
+select * from information_schema.sequences
+select * from information_schema.sequences;
+#1731507551639 | took 1ms | statement | connection 1| url jdbc:p6spy:postgresql://localhost:5432/postgres
+select * from "public"."projet" where 1=0
+select * from "public"."projet" where 1=0;
+#1731507551639 | took 2ms | statement | connection 11| url jdbc:postgresql://localhost:5432/postgres
+select * from "public"."projet" where 1=0
+select * from "public"."projet" where 1=0;
+#1731507551670 | took 3ms | statement | connection 1| url jdbc:p6spy:postgresql://localhost:5432/postgres
+select * from "public"."users" where 1=0
+select * from "public"."users" where 1=0;
+#1731507551670 | took 3ms | statement | connection 11| url jdbc:postgresql://localhost:5432/postgres
+select * from "public"."users" where 1=0
+select * from "public"."users" where 1=0;
+#1731507551710 | took 5ms | statement | connection 1| url jdbc:p6spy:postgresql://localhost:5432/postgres
+select * from "public"."projet" where 1=0
+select * from "public"."projet" where 1=0;
+#1731507551711 | took 6ms | statement | connection 11| url jdbc:postgresql://localhost:5432/postgres
+select * from "public"."projet" where 1=0
+select * from "public"."projet" where 1=0;
+#1731507551751 | took 30ms | statement | connection 1| url jdbc:p6spy:postgresql://localhost:5432/postgres
+select * from "public"."users" where 1=0
+select * from "public"."users" where 1=0;
+#1731507551751 | took 30ms | statement | connection 11| url jdbc:postgresql://localhost:5432/postgres
+select * from "public"."users" where 1=0
+select * from "public"."users" where 1=0;
